@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+}
+
+
+.container{
+    background-color: rgb(15, 15, 15);
+    width: 1150px;
+    height: 250px;
+    
+   border-radius: 30px;
+   border-color: azure;
+   border-width: 2px;
+   padding-top: 100px ;
+   margin-top: 10%;
+   margin-left: 50px
+   
+}
+.Rock{
+    background-color:black;
+   
+    border-color: rgb(236, 239, 243);
+    border-radius: 30px;
+    margin: 0 20px 0 40px;
+    padding: 20px 30px;
+    font-size: 75px;
+    color: aliceblue;
+    height: 126px;
+    width: 305px;
+    border-width: 1px;
+
+}
+.Paper{
+    background-color: black;
+    border-color: rgb(236, 239, 243);
+    border-radius: 30px;
+    margin: 0 20px 0 40px;
+    padding: 20px 30px;
+    font-size: 75px;
+    color: aliceblue;
+    height: 126px;
+    width: 305px;
+    border-width: 1px;
+
+}
+.scissors{
+    background-color: black;
+    border-color: rgb(236, 239, 243);
+    border-radius: 30px;
+    margin: 0 20px 0 40px;
+    padding: 20px 30px;
+    font-size: 75px;
+    color: aliceblue;
+    height: 126px;
+    width: 305px;
+    border-width: 1px;
+
+}
+.Rock:hover{
+    background-color:  rgb(40, 43, 43);
+    color: green;
+    cursor: pointer;
+}
+.Paper:hover{
+    background-color:  rgb(40, 43, 43);
+    color: green;
+    cursor: pointer;
+}
+.scissors:hover{
+    background-color:  rgb(40, 43, 43);
+    color: green;
+    cursor: pointer;
+}
